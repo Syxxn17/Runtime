@@ -14,6 +14,7 @@
 		3A2B99F32692FD7E00772FE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2B99F22692FD7E00772FE8 /* Assets.xcassets */; };
 		3A2B99F62692FD7E00772FE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2B99F42692FD7E00772FE8 /* LaunchScreen.storyboard */; };
 		3A2B99F92692FD7E00772FE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B99F82692FD7E00772FE8 /* main.m */; };
+		3A2B9A0126932A6700772FE8 /* UIViewController+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B9A0026932A6700772FE8 /* UIViewController+Swizzling.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		3A2B99F52692FD7E00772FE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A2B99F72692FD7E00772FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A2B99F82692FD7E00772FE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A2B99FF26932A6700772FE8 /* UIViewController+Swizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Swizzling.h"; sourceTree = "<group>"; };
+		3A2B9A0026932A6700772FE8 /* UIViewController+Swizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Swizzling.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				3A2B99F42692FD7E00772FE8 /* LaunchScreen.storyboard */,
 				3A2B99F72692FD7E00772FE8 /* Info.plist */,
 				3A2B99F82692FD7E00772FE8 /* main.m */,
+				3A2B99FF26932A6700772FE8 /* UIViewController+Swizzling.h */,
+				3A2B9A0026932A6700772FE8 /* UIViewController+Swizzling.m */,
 			);
 			path = Runtime;
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 				3A2B99EE2692FD7B00772FE8 /* ViewController.m in Sources */,
 				3A2B99E82692FD7B00772FE8 /* AppDelegate.m in Sources */,
 				3A2B99F92692FD7E00772FE8 /* main.m in Sources */,
+				3A2B9A0126932A6700772FE8 /* UIViewController+Swizzling.m in Sources */,
 				3A2B99EB2692FD7B00772FE8 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
