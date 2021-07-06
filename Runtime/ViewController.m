@@ -17,7 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     UIViewController *vc = [UIViewController new];
-    [UIViewController load];
     NSLog(@"Call original function=======");
     [vc originalFunction];
     NSLog(@"Call swizzled function=======");
